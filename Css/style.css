@@ -3,7 +3,9 @@
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
-html, body {height: 100%;}
+html, body {height: 100%;
+  font-family: 'Open Sans', serif;
+}
 .floatleft {float:left}
 .floatright {float:right}
 .alignleft {float:left;margin-right:15px;margin-bottom: 15px}
@@ -26,7 +28,6 @@ list-style: outside none none;
 margin: 0;
 padding: 0
 }
-body {font-family: 'Noto Sans Mono', monospace;}
 body .readon-title {
   color: #bb372e;
 }
@@ -375,7 +376,7 @@ width: 10px;}
 5. features-area
 --------------------------------*/
 .features-area-1{
-  background: rgba(0, 0, 0, 0) url("img/features/bg-1.html") no-repeat fixed center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../Assets/slider/slider-4/bg.jpg") no-repeat fixed center center / cover ;
   padding: 160px 0;
 }
 .single-features-1 {
@@ -2728,7 +2729,6 @@ float: left;
 }
 .contact-content p {
   font-size: 16px;
-  font-weight: bold;
   padding-top: 20px;
 }
 .contact-content ul{}
